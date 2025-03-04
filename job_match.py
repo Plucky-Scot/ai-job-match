@@ -5,7 +5,7 @@ import re
 import ollama
 import chromadb
 from langdetect import detect
-import jobs_reporter as jr
+import reporter as jr
 
 CLIENT = chromadb.Client()
 COLLECTION = CLIENT.create_collection(name="docs")
